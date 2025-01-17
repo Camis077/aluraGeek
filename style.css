@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f1d2da;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    background-color: #F2A2C0;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    cursor: pointer;
+
+}
+
+
+/* Main */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+
+}
+
+h2 {
+    justify-content: flex-start;
+    font-family: "Playwrite AU SA", serif;
+    font-size: 50px;
+    color: #403637;
+    /* justify-content: left; */
+    margin-top: 5px;
+    position: absolute;
+    top:1%;
+    left: 10%;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+    margin: 60px 55px;
+    
+
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin: auto;
+    transition: .2s;
+    position: relative;
+    cursor: pointer;
+
+}
+
+h3 {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 16px;
+    color: #463a3c;
+    text-align: center;
+}
+
+strong {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 12px;
+    
+}
+
+.excluir strong{
+    position: absolute;
+    right: 10px;
+    color: #594347;
+    cursor: pointer;
+   
+}
+
+.rodape {
+    color: #46312f;
+    background-color: #F294B6;
+    padding: 15px;
+    text-align: center;
+    font-family: "Playwrite GB S", serif;
+    font-size: 0, 93rem;
+    font-weight: 600px;
+}
+
+/* botao de add */
+.btn__add{
+    justify-content: flex-end;
+    /* justify-content: left; */
+    margin-top: 5px;
+    position: absolute;
+    top:1%;
+    right: 10%;
+}
+
+.btn__add button {
+    padding: 10px 40px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family:"Playwrite AU SA", serif;
+    font-weight: 600;
+    border: 0;
+    background-color: #F2B3CA;
+    border-radius: 25px;
+    color: #594347;
+    cursor: pointer;
+   
+}
+
+.btn__add:hover {
+    transform: scale(1.05);
+
+}
+
+/* Formulario */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+   
+}
+
+.formulario {
+    font-family:"Playwrite GB S", serif;
+    font-size: 25px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 65px 15px;
+    border-radius: 15px;
+    color: #2a1e1e;
+    
+}
+
+
+
+.picture__input {
+    width: 30vw;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    padding: 5px;
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    padding-left: 15px;
+    background: #fff;
+    font-family:"Playwrite GB S", serif;
+    
+}
+.picture__input:focus {
+    border: 2px solid #F294B6;
+}
+
+
+.form_conteudo {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+
+form input {
+    width: 30vw;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    padding-left: 15px;
+}
+
+form input:focus {
+    border: 2px solid #F294B6;
+}
+
+form .btn__enviar {
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+form .btn__enviar input {
+    width: 180px;
+    font-family:"Playwrite GB S", serif;
+    font-size: 15px;
+    background-color: #F2A2C0;
+    color: #5b4343;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn__enviar :hover {
+    width: 180px;
+    font-family:"Playwrite GB S", serif;
+    background-color: #F2BBC9;
+    color: #4a3838;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    transform: scale(1.05);
+}
